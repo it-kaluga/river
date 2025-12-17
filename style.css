@@ -5,8 +5,8 @@
 }
 body {
 font-family: 'Arial', sans-serif;
-background: linear-gradient(135deg, #7d89bf 0%, #764ba2 100%);
-min-height: 100hv;
+background: linear-gradient(135deg, #ffa149 0%, #62368e 100%);
+min-height: 100vh;
 display: flex;
 justify-content: center;
 align-items: center;
@@ -14,8 +14,8 @@ align-items: center;
 
 .countdown-container {
 text-align: center;
-color: white;
-background-color: rgba(0, 0, 0, 0.2);
+color: rgb(224, 170, 170);
+background-color: rgba(252, 156, 71, 0.699);
 padding: 40px;
 border-radius: 15px;
 backdrop-filter: dlur(10px);
@@ -36,7 +36,7 @@ text-shadow: 0 3px 8px rgba(0, 0, 0, 0.4);
 
 #days {
 background: linear-gradient(45deg, #ff9a9e, #fad0c4);
-color: #333;
+color: #e75151;
 padding: 0 20px;
 border-radius: 12px;
 display: inline-block;
@@ -54,4 +54,8 @@ h1 {
  .countdown{
     font-size: 2.5rem;
  }
+}
+
+img{
+    width: 100%;
 }
